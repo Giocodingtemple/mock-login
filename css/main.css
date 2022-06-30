@@ -1,0 +1,59 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    
+    height: 75px;
+    width: 125px;
+    
+    
+}
+
+form{
+    border: 1px solid #000000;
+    box-shadow: 1px 3px 4px 1px #727272;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start ;
+    align-items: flex-start;
+    padding: 50px;
+
+}
+
+Button {
+    background-color: goldenrod;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center ;
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;    
+}
+
+footer p{
+   text-align: center;
+    
+
+}
+
+
+
+
+
+
