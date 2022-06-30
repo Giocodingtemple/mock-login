@@ -97,3 +97,24 @@ header:hover + main article{
 header:hover + main article>*{
     display: none;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center ;
+}
+
+footer div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;    
+}
+
+footer p{
+   text-align: center;
+    
+
+}
