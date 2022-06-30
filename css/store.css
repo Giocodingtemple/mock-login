@@ -1,0 +1,99 @@
+:root{
+    --dark: #1A090D;
+    
+    --grey: #D0DDD7;
+
+    --light: #546a76;
+}
+
+body{
+    color: var(--dark);
+}
+
+main{
+    background-color:var(--light);
+    min-height: 90vh;
+}
+
+footer, nav{
+    padding: 10px;
+    background-color:var(--grey);
+}
+
+nav{
+    border-bottom: 1px solid var(--light);
+}
+
+footer{
+    border-top: 1px solid var(--dark);
+    text-align: center;
+}
+
+h1{
+    margin-top: 0px;
+    padding: 25px 50px;
+    text-shadow: 2px 2px var(--dark);
+}
+
+img{
+    height: 150px ;
+    width: 150px ;
+    object-fit: cover;
+    opacity: .7;
+    border-radius: 50%;
+    float: left;
+    margin-right:10px;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+article{
+    float: left;
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px var(--dark);
+    background-color: var(--grey);
+    padding-top: 100px;
+    transform: rotate(.02turn)
+}
+
+article:hover{
+    transform:none;
+}
+
+h4{
+    color: var(--dark);
+    height: 100px;
+    margin-right: 10px;
+}
+
+nav > a{
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px 11px;
+    margin: 10px;
+    background-color: var(--light);
+    border: 1px solid var(--grey);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+nav > a{
+    background-color: var(--light);
+    color: var(--dark);
+}
+a[href="#"] {
+    text-decoration: var(--dark) wavy underline;
+}
+
+header:hover + main article{
+    opacity: .5;
+}
+
+header:hover + main article>*{
+    display: none;
+}
